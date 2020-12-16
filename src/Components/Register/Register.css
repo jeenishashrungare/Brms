@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+
+.brs {
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+  }

@@ -1,0 +1,7 @@
+.lpage {
+    background: linear-gradient(89deg, #c986c5 0%, #c2659b9d 100%);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

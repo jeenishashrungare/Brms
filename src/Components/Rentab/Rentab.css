@@ -1,0 +1,35 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  position: center;
+  background-color: blanchedalmond;
+}
+
+#customers td, #customers th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: grey;
+  color:black;
+}
+
+.centert {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+
+.brs {
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+  }

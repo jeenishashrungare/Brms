@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  margin: 0 auto; /* Center it */
+  max-width: 1000px;
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+
+.brs {
+  font-family: 'Sansita Swashed', cursive;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+}
+
+.containers {
+  display: flex;
+}
+.containers > div {
+  flex: 1; /*grow*/
+}
+
+.cardhome{
+    height: 200px;
+    width: 50%;
+    background-color: black;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px 50px;
+}
+
+.w{
+  color: #f1f1f1;
+}
